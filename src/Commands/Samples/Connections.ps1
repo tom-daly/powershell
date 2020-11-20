@@ -10,7 +10,7 @@ Connect-PnPOnline -Url https://yourtenant.sharepoint.com -Credentials $creds
 # Connecting with credentials that are stored in the credential manager. See readme.md
 Connect-PnPOnline -Url https://yourtenant.sharepoint.com -Credentials "LABEL"
 
-# Connecting with appid and appsecret. If you don't specify the realm, a call will be made to the site to retrieve the realm info.
+# Connecting with app/client id and app/client secret. If you don't specify the realm, a call will be made to the site to retrieve the realm info.
 Connect-PnPOnline -Url https://yourtenant.sharepoint.com -ClientId e8a9a0ef-86a9-4871-ba5f-dbacbcd57e4c -ClientSecret abmQDEw/x/PHX6stdhbJgDEF3pSZkN64sS63XDViBm60=
 
 # Connecting with App Id and App Secret. If you don't specify the realm, a call will be made to the site to retrieve the realm info.
